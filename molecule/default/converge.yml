@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible_grafana"
+      include_role:
+        name: "ansible_grafana"

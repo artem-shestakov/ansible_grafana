@@ -1,0 +1,7 @@
+---
+- name: HANDLER | Make sure the Grafana is running
+  ansible.builtin.systemd:
+    state: started
+    enabled: yes
+    name: grafana-server
+  listen: "start grafana"
