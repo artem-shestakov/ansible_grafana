@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: postgresql
+  role_name: grafana
   namespace: artem_shestakov
   author: artem.s.shestakov@gmail.com
   description: The simple role to install Grafana OSS server
